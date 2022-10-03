@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <title>Timer Esferas Software</title>
+            <link rel="stylesheet" href="design.css">
+            <script src="funcoes.js" defer></script>
+        </head>
+
+
+        <body>
+            <audio autoplay id="som" src="alarme.mp4" style="display: none;"></audio>
+
+            <header>
+                <nav class="nav">
+                    <a href="index.html"><img src="clock-png.webp" height="80px"></a>
+                    <h1>Timer Esferas Software</h1>
+                </nav>
+            </header>
+
+            <div class="container">
+                <h3 class="horas">HORAS</h1>
+                <h3 class="minutos">MINUTOS</h1>
+                <h3 class="segundos">SEGUNDOS</h1>
+                
+                <div class="tempo">
+                    <input id="hora" type="number" max="99" min="0" value="0">
+                    <input id="minuto" type="number" max="60" min="0" value="0">
+                    <input id="segundo" type="number" max="60" min="0" value="0">
+                </div>
+
+                
+                <div class="botoes">
+                    <button id="iniciar" class="iniciar">Iniciar</button>
+                    <button id="pausar" class="pausar">Pausar</button>
+                    <button id="cancelar" class="cancelar" >Cancelar</button>
+                </div>
+           
+            </div>
+
+        </body>
+    </html>
