@@ -1,3 +1,3 @@
 # TIMER
 
-TEST ON pedrostos.github.io/TIMER
+TEST ON pedrostos.github.io/TIMER/
