@@ -1,3 +1,3 @@
 # TIMER
 
-TEST ON https://pedrostos.github.io/TIMER/
+TEST ON timervanillajs.vercel.app
