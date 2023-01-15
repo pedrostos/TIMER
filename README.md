@@ -1,3 +1,3 @@
 # TIMER
 
-TEST ON timervanillajs.vercel.app
+TEST ON https://timervanillajs.vercel.app
