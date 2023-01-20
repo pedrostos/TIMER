@@ -1,14 +1,13 @@
  *{
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Raleway:wght@100&display=swap');
 
 html {
     background: linear-gradient(120deg, rgb(58, 57, 55), rgb(255, 255, 255));
-    background-repeat: no-repeat;
-    height: 100%;
 }
 
 .nav {
@@ -16,12 +15,10 @@ html {
     text-align: center;
     width: 100%;
     height: 100px;
-    color: rgb(0, 0, 0);
     line-height: 100px;
 }
 
 .nav h1 {
-    color: rgb(0, 0, 0);
     margin-top: -8%;
 }
 
@@ -56,30 +53,6 @@ button {
     cursor: pointer;
 }
 
-.iniciar {
-    background-color: rgb(12, 219, 12);
-}
-
-.iniciar:hover {
-    background-color: rgb(0, 255, 42);
-}
-
-.pausar {
-    background-color: rgb(255, 255, 255);
-}
-
-.pausar:hover {
-    background-color:rgb(177, 177, 177) ;
-}
-
-.cancelar {
-    background-color: red;
-}
-
-.cancelar:hover {
-    background-color: rgb(211, 32, 32);
-}
-
 input {
     width: 100%;
     text-align: center;
@@ -88,25 +61,10 @@ input {
     border-radius: 10px;
 }
 
-.horas {
-    color: white;
-    float: left;
-    font-family: 'Raleway', sans-serif;
-    margin-left: 15%;
-}
-
-.minutos {
+h3 {
     color: white;
     float: left;
     margin-left: 15%;
-    font-family: 'Raleway', sans-serif;
-}
-
-.segundos {
-    color: white;
-    float: left;
-    margin-left: 15%;
-    font-family: 'Raleway', sans-serif;
 }
 
 .tempo {
